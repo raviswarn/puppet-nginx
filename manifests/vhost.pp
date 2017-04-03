@@ -22,9 +22,10 @@ define nginx::vhost(
   }
 
   file { "$vhost_docroot": 
-    ensure => directory,
-    owner  => $owner,
-    group  => $group,
-    mode   => '0775',
+    ensure  => directory,
+    recurse => true, 
+    owner   => $owner,
+    group   => $group,
+    mode    => '0775',
   }
 }
