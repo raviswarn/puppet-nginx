@@ -1,0 +1,15 @@
+{
+  "name": "puppet-nginx",
+  "version": "0.1.0",
+  "author": "Raveendra Swarna",
+  "summary": "This module is going to manage nginx",
+  "license": "Apache-2.0",
+  "source": "https://github.com/swarnaravi/puppet-nginx.git",
+  "project_page": "https://github.com/swarnaravi/puppet-nginx.git",
+  "issues_url": "https://github.com/swarnaravi/puppet-nginx.git/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
